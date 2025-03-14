@@ -1,14 +1,3 @@
-// const Home = () => {
-//     return (
-//         <div className="p-4">
-//             <h1 className="text-2xl font-bold">Welcome to the Shopping cart Homepage</h1>
-//             <p className="mt-2">Browse our products and add them to your cart</p>
-//         </div>
-//     );
-// }
-
-// export default Home;
-
 import shipI from "../assets/ships/MoonBreakerr.png"; 
 import { Link } from 'react-router-dom';
 
@@ -23,8 +12,8 @@ const Home = () => {
       <div className="bg-indigo-100 rounded-lg p-8 shadow-md mb-12">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-6 md:mb-0">
-            <h2 className="text-3xl font-bold text-indigo-800 mb-4">Shop the Latest Trends</h2>
-            <p className="text-gray-700 mb-6">Browse our wide selection of products from clothing to electronics and more.</p>
+            <h2 className="text-3xl font-bold text-indigo-800 mb-4">Shop the Latest Planet desroying weapons, produced by Sun Industries</h2>
+            <p className="text-gray-700 mb-6">Browse our wide selection of products, from ships to missiles, legion gear and more.</p>
             <Link 
               to="/products" 
               className="bg-indigo-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-indigo-700 transition-colors inline-block"
@@ -47,7 +36,7 @@ const Home = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
         <div className="bg-white p-6 rounded-lg shadow-md">
           <h3 className="text-xl font-bold text-gray-800 mb-3">Free Shipping</h3>
-          <p className="text-gray-600">On orders over $50</p>
+          <p className="text-gray-600">On orders over 5 billion credits</p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow-md">
           <h3 className="text-xl font-bold text-gray-800 mb-3">Secure Payment</h3>
