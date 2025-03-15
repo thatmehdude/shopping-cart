@@ -13,6 +13,13 @@ const Layout = () => {
             <main className="flex-grow container px-4 py-8">
                 <Outlet />
             </main>
+            <footer className="bg-gray-800 text-white py-6">
+                <div className="container mx-auto px-4 text-center">
+                    <p>
+                    The home page is what I want, however, I did not have enough time to get more images, so i will be using the fakestoreapi for the products
+                    </p>
+                </div>
+            </footer>
         </div>
     );
 };
