@@ -1,7 +1,7 @@
 import { useState, useEffect, useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { getProducts, getCategories } from '../services/api';
-import { CartContext } from '../context/CartContext';
+import { CartContext, CartProvider } from '../context/CartContext';
 
 const Products = () => {
   const [products, setProducts] = useState([]);
