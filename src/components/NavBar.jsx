@@ -1,6 +1,8 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+import { useContext } from "react";
+import { CartContext } from "../context/CartContext";
 const NavBar = () => {
-    const cart = []
+    const { cart } = useContext(CartContext);
     const itemCount = cart.reduce((total, item) => total + item.quantity, 0);
     return (
         <nav className="bg-gray-300">
